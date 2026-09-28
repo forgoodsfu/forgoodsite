@@ -1,0 +1,72 @@
+/* Design tokens — generated from the Project For Good design system (tokens.json). */
+:root {
+  color-scheme: light dark;
+  --paper: #f6f4ef;
+  --paper-raised: #ffffff;
+  --paper-sunken: #ebe8e1;
+  --line: #d9d5cc;
+  --line-strong: #8c877d;
+  --ink: #121210;
+  --ink-muted: #57544d;
+  --ink-subtle: #6b675f;
+  --night: #0b0b0a;
+  --night-raised: #1a1a18;
+  --night-line: #2e2d2a;
+  --on-night: #f5f3ee;
+  --dusk: #8a8f9c;
+  --sunset: #ff6b2c;
+  --on-sunset: #121210;
+  --sunset-ink: #b23d0a;
+  --sunset-soft: #ffe3d4;
+  --harbour: #1f5bd8;
+  --harbour-on-night: #6f9dff;
+  --frame-harbour: #3f6fe0;
+  --frame-sunset: #f58a3a;
+  --frame-lilac: #c0adf5;
+  --frame-moss: #94c97a;
+  --focus-ring: var(--harbour);
+  --shadow-frame: 0 24px 60px -24px rgba(18, 18, 16, 0.35);
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+  --space-10: 144px;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-round: 999px;
+  --content-max: 1200px;
+  --nav-height: 56px;
+  --measure: 60ch;
+  --font-sans: var(--font-geist-sans), "Helvetica Neue", Arial, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, Menlo, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #0e0e0c;
+    --paper-raised: #181816;
+    --paper-sunken: #060605;
+    --line: #2c2b28;
+    --line-strong: #6b675f;
+    --ink: #f3f1ec;
+    --ink-muted: #aaa69d;
+    --ink-subtle: #8f8b83;
+    --night: #000000;
+    --night-raised: #141412;
+    --night-line: #2a2927;
+    --sunset: #ff7a3d;
+    --sunset-ink: #ff9a6b;
+    --sunset-soft: #3a1a0c;
+    --harbour: #7aa7ff;
+    --harbour-on-night: #7aa7ff;
+    --frame-lilac: #a893ea;
+    --frame-moss: #7fb865;
+    --shadow-frame: 0 24px 60px -24px rgba(0, 0, 0, 0.8);
+  }
+}
